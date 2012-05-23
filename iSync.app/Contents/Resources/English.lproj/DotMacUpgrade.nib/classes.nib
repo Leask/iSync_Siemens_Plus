@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {openDotMacSysPrefPane = id; }; 
+            CLASS = ISyncDotMacUpgradeView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_view" = id; }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,62 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = IPHDaemonDeviceService; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = IPHDeviceService; 
+        }, 
+        {CLASS = IPHDeviceService; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {modletContextAddButtonClicked = id; }; 
+            CLASS = IPHModletController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = IPHDeviceService; 
+        }, 
+        {
+            CLASS = IPHNibBasedModletController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainView = NSView; }; 
+            SUPERCLASS = IPHModletController; 
+        }, 
+        {
+            ACTIONS = {
+                cancelSynchronization = id; 
+                closeOptionsPanel = id; 
+                closePushingReadOnlyCalendarWarningWindow = id; 
+                dontShowWarningWhenPushingReadOnlyCalendar = id; 
+                fatherCalendarMenuChanged = id; 
+                iSyncSelectedCalendarsChanged = id; 
+                iSyncSelectedContactChanged = id; 
+                modeOfFirstSyncSelectionChanged = id; 
+                openOptionsPanel = id; 
+                showTimeZoneDrawer = id; 
+                toggleCalendarSync = id; 
+            }; 
+            CLASS = IPHSyncManagerModlet; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_getFrom" = NSPopUpButton; 
+                "_getUntil" = NSPopUpButton; 
+                calendarsHeaderView = CALMonoColumnHeaderedView; 
+                calendarsTableView = NSTableView; 
+                calendarsView = NSView; 
+                contactsHeaderView = CALMonoColumnHeaderedView; 
+                contactsTableView = NSTableView; 
+                contactsView = NSView; 
+                containerView = NSView; 
+                fatherCalendarPopUp = NSPopUpButton; 
+                iSyncCalendarAllOrSelectedMatrix = NSMatrix; 
+                iSyncCalendarsMatrix = NSMatrix; 
+                iSyncGroupsPopUp = NSPopUpButton; 
+                iSyncTurnOnDev = NSButton; 
+                optionsPanel = NSPanel; 
+                picturesView = NSView; 
+                pushingReadOnlyCalendarWarningWindow = NSWindow; 
+                systemTimeZoneField = NSTextField; 
+            }; 
+            SUPERCLASS = IPHNibBasedModletController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

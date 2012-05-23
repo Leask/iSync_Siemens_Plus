@@ -1,0 +1,34 @@
+{
+    IBClasses = (
+        {CLASS = CompletionController; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {selectCity = id; selectCityFromComboBoxTextEdit = id; }; 
+            CLASS = NXTimeZoneView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_completionController" = CompletionController; 
+                abbreviationTextField = NSTextField; 
+                cityComboBox = NSComboBox; 
+                cityTextField = NSTextField; 
+                delegate = id; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {cancelAction = id; okAction = id; switchAction = id; }; 
+            CLASS = TimeZonePanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                citiesComboBox = NSComboBox; 
+                delegate = id; 
+                instructions = NSTextField; 
+                switchMatrix = NSMatrix; 
+                timeZonePanel = NSPanel; 
+                tzView = NXTimeZoneView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

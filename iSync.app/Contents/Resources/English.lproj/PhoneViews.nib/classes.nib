@@ -1,0 +1,29 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {firstSyncOption = id; turnOnDevice = id; }; 
+            CLASS = ISyncDeviceViewController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                configDataclassTableView = NSTableView; 
+                configDefaultView = NSView; 
+                configDeviceNameField = NSTextField; 
+                configFirstSyncOptionPopup = NSPopUpButton; 
+                configLastSyncDateField = NSTextField; 
+                configTabView = NSTabView; 
+                configTurnOnDeviceButton = NSButton; 
+                scanDeviceImageView = NSImageView; 
+                scanDeviceNameField = NSTextField; 
+                scanLightImageView = NSImageView; 
+                scanMessageField = NSTextField; 
+                scanProgressAdd = NSProgressIndicator; 
+                scanProtocolImageView = NSImageView; 
+                scanView = ISyncSummaryBGView; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = ISyncSummaryBGView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

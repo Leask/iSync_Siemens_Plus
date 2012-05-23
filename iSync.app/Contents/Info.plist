@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>iSync</string>
+	<key>CFBundleExecutable</key>
+	<string>iSync</string>
+	<key>CFBundleGetInfoString</key>
+	<string>iSync 2.3, © 2003-2006 Apple Computer, Inc. All rights reserved.</string>
+	<key>CFBundleHelpBookFolder</key>
+	<string>iSyncHelp</string>
+	<key>CFBundleHelpBookName</key>
+	<string>iSync Help</string>
+	<key>CFBundleIconFile</key>
+	<string>iSyncApplicationIcon</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple.isync</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>iSync</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.3</string>
+	<key>CFBundleSignature</key>
+	<string>iSnc</string>
+	<key>CFBundleVersion</key>
+	<string>500.86</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.4.0</string>
+	<key>NSAppleScriptEnabled</key>
+	<string>YES</string>
+	<key>NSMainNibFile</key>
+	<string>iSyncMain</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>

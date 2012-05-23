@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>EntityFormatters</key>
+	<dict>
+		<key>com.apple.calendars.AudioAlarm</key>
+		<dict>
+			<key>PreFiltering</key>
+			<string>genericAlarmFilterWithNoAlarmOnEventOrAfter:alarm:</string>
+		</dict>
+		<key>com.apple.calendars.DisplayAlarm</key>
+		<dict>
+			<key>PreFiltering</key>
+			<string>genericAlarmFilterWithNoAlarmOnEventOrAfter:alarm:</string>
+		</dict>
+		<key>com.apple.calendars.Event</key>
+		<dict>
+			<key>FormatterClass</key>
+			<string>IPHMotorolaFormatter</string>
+			<key>RecordFormatting</key>
+			<string>formatEventRecord:</string>
+		</dict>
+		<key>com.apple.contacts.Contact</key>
+		<dict>
+			<key>FormatterClass</key>
+			<string>IPHMotorolaFormatter</string>
+			<key>RecordFormatting</key>
+			<string>formatContactRecord:</string>
+		</dict>
+		<key>com.apple.contacts.Email Address</key>
+		<dict>
+			<key>FormatterClass</key>
+			<string>IPHMotorolaFormatter</string>
+			<key>RecordFormatting</key>
+			<string>formatEmailAddressRecord:</string>
+		</dict>
+		<key>com.apple.contacts.Phone Number</key>
+		<dict>
+			<key>FormatterClass</key>
+			<string>IPHMotorolaFormatter</string>
+			<key>RecordFormatting</key>
+			<string>formatPhoneRecord:</string>
+		</dict>
+	</dict>
+	<key>SyncDataClasses</key>
+	<dict>
+		<key>Calendars</key>
+		<dict>
+			<key>DataClassManager</key>
+			<dict>
+				<key>Name</key>
+				<string>CalendarManager</string>
+				<key>hasAllDayMultiDay</key>
+				<false/>
+				<key>needsEndDateAtMidnight00</key>
+				<true/>
+				<key>onlyEvents</key>
+				<true/>
+                <key>alarmTypeIsDisplay</key>
+                <false/>
+			</dict>
+		</dict>
+		<key>Contacts</key>
+		<dict>
+			<key>DataClassManager</key>
+			<dict>
+				<key>Name</key>
+				<string>MotorolaContactManager</string>
+                <key>onlyAsciiCharacters</key>
+                <string>$OnlySupportASCIIChar</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
