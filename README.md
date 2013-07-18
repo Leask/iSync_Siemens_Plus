@@ -21,12 +21,14 @@ nova media phone plugins 使用的是扩充 iSync 设备特征数据库的方法
 
 ## 特性
 iSync Siemens Plus 现阶段可以增加 iSync 对：S65(S6C)、SK6(SK6C)、SP65(SP6C)、S6V、S66、S68、S88、EF81(EF8C)、M75(M7C)、S75(S7C)、SL75(SL7C) 等 Siemens 6x/7x 手机的识别（包括欧版和简繁中文版）。
+
 iSync Siemens Plus 的修改没有影响 iSync 识别本来就能正常同步的设备，可以放心使用。
 其中 6x 系列手机同步已通过充分测试，但由于硬件条件限制，本人并没有实测 7x 系列手机的兼容情况。如在使用中出现任何问题，请告知我改进。
 
 
 ## 使用 / 卸载
 iSync Siemens Plus 的使用很简单，用下载的 iSync.app 替换 /Applications/iSync.app，完成后你的 iSync 就能搜索到之前不能识别的设备 6x/7x 手机。
+
 不再需要时，用预先备份的 iSync.app 原版替换修改版即可恢复。
 
 
