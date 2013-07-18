@@ -1,0 +1,83 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = IPHDeviceService; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = IPHModletController; LANGUAGE = ObjC; SUPERCLASS = IPHDeviceService; }, 
+        {
+            CLASS = IPHNibBasedModletController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mainView = NSView; }; 
+            SUPERCLASS = IPHModletController; 
+        }, 
+        {
+            CLASS = IPHSyncCalendarTableViewSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {calendarTableView = NSTableView; syncManagerModlet = IPHSyncManagerModlet; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = IPHSyncContactTableViewSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {contactTableView = NSTableView; syncManagerModlet = IPHSyncManagerModlet; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                closeOptionsPanel = id; 
+                closePushingReadOnlyCalendarWarningWindow = id; 
+                discardOptionsPanel = id; 
+                dontShowWarningWhenPushingReadOnlyCalendar = id; 
+                fatherCalendarMenuChanged = id; 
+                iSyncSelectedCalendarsChanged = id; 
+                iSyncSelectedContactChanged = id; 
+                modeOfFirstSyncSelectionChanged = id; 
+                openOptionsPanel = id; 
+                showTimeZoneDrawer = id; 
+                toggleCalendarSync = id; 
+                validateOptionsPanel = id; 
+            }; 
+            CLASS = IPHSyncModlet; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                calendarsSelectionView = NSView; 
+                calendarsTableView = NSTableView; 
+                contactsTableView = NSTableView; 
+                dynamicMainControlView = UIControlView; 
+                dynamicOptionsControlView = UIControlView; 
+                enableCalendarsCheckbox = NSButton; 
+                enableContactsCheckbox = NSButton; 
+                eventsDestinationLabel = NSTextField; 
+                eventsTimeZoneLabel = NSTextField; 
+                fatherCalendarPopUp = NSPopUpButton; 
+                firstSyncModeField = NSTextField; 
+                firstSyncModePopup = NSPopUpButton; 
+                iSyncCalendarAllOrSelectedMatrix = NSMatrix; 
+                iSyncCalendarsMatrix = NSMatrix; 
+                iSyncGroupsPopUp = NSPopUpButton; 
+                iSyncTurnOnDev = NSButton; 
+                limitEventsAfterCheckbox = NSButton; 
+                limitEventsAfterPopUpButton = NSPopUpButton; 
+                limitEventsPriorToCheckbox = NSButton; 
+                limitEventsPriorToPopUpButton = NSPopUpButton; 
+                onlySyncContactsWithPhoneNumbersCheckbox = NSButton; 
+                optionsButton = NSButton; 
+                optionsPanel = NSPanel; 
+                pushingReadOnlyCalendarWarningWindow = NSWindow; 
+                setTimeZoneButton = NSButton; 
+                syncAllDayEventsCheckbox = NSButton; 
+                syncEmailAddressesCheckbox = NSButton; 
+                syncFaxNumbersCheckbox = NSButton; 
+                syncPicturesCheckbox = NSButton; 
+                systemTimeZoneField = NSTextField; 
+                timeZoneDescriptionField = NSTextField; 
+                timeZoneOptionView = NSView; 
+                updatingCalendarsProgressIndicator = NSProgressIndicator; 
+                updatingContactsProgressIndicator = NSProgressIndicator; 
+            }; 
+            SUPERCLASS = IPHNibBasedModletController; 
+        }, 
+        {CLASS = IPHTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {CLASS = UIControlView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

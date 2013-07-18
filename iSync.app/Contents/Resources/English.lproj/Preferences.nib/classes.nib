@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                airbagEnabledClicked = id; 
+                airbagLevelSelected = id; 
+                askForHotSyncCheckBoxClicked = id; 
+                askForSyncEnableClicked = id; 
+                closeResetHistoryPanel = id; 
+                doSyncHistoryReset = id; 
+                escapeMagicSimulator = id; 
+                useMenulingCheckBoxClicked = id; 
+            }; 
+            CLASS = ISyncPreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                airbagEnabledCheckBox = NSButton; 
+                airbagPopUpValues = NSPopUpButton; 
+                askForHotSyncCheckbox = NSButton; 
+                resetPanel = NSWindow; 
+                syncEnableCheckbox = NSButton; 
+                useMenulingCheckbox = NSButton; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = ISyncTextField; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }
+    ); 
+    IBVersion = 1; 
+}

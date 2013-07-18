@@ -1,0 +1,20 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FriendlyOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {CLASS = LogOutlineView; LANGUAGE = ObjC; SUPERCLASS = NSOutlineView; }, 
+        {
+            ACTIONS = {resetLog = id; selectAll = id; selectDefault = id; }; 
+            CLASS = LogWindowController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                clearLogButton = NSButton; 
+                domainView = NSMatrix; 
+                logDetailField = NSTextField; 
+                outlineView = LogOutlineView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

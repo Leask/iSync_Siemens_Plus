@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                conflictCancel = id; 
+                conflictProceed = id; 
+                initialCheckPalmSyncingCancel = id; 
+                initialCheckPalmSyncingDontShowAgain = id; 
+                initialCheckPalmSyncingProceed = id; 
+                openHSPageHelp = id; 
+            }; 
+            CLASS = ISyncPalmSyncing; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_conflictView" = id; 
+                "_enableButtonCancel" = NSButton; 
+                "_enableButtonOK" = NSButton; 
+                "_enableNavTabView" = NSTabView; 
+                "_enableProgressSpin" = NSProgressIndicator; 
+                "_enableProgressText" = NSTextField; 
+                "_helpButton" = NSButton; 
+                "_textViewDisable" = id; 
+                "_windowEnablerPalm" = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
